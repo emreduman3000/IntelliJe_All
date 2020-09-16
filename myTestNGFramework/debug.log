@@ -1,0 +1,8 @@
+[0719/121556.425:ERROR:process_info.cc(375)] NtQuerySystemInformation SystemExtendedHandleInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0719/121621.940:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0719/121621.943:ERROR:exception_snapshot_win.cc(98)] thread ID 872 not found in process
+[0719/121621.948:ERROR:filesystem_win.cc(148)] DeleteFile C:\Users\EMREDU~1\AppData\Local\Temp\scoped_dir16328_2042829188\Crashpad\reports\3f485158-c6bc-42ef-b4a2-841808afbdc7.dmp: The process cannot access the file because it is being used by another process. (0x20)
+[0719/121621.963:ERROR:process_info.cc(359)] UncheckedAllocate
+[0719/121623.274:ERROR:process_info.cc(359)] UncheckedAllocate
+[0719/121726.072:ERROR:process_reader_win.cc(90)] NtQuerySystemInformation: {Not Enough Quota} Not enough virtual memory or paging file quota is available to complete the specified operation. (0xc0000017)
+[0719/121726.073:ERROR:exception_snapshot_win.cc(98)] thread ID 18352 not found in process

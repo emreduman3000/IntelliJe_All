@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-07T01:53:20.277Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1813800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Automation practice create account",
+        "description": "",
+        "id": "automation-practise-1;automation-practice-create-account",
+        "after": [
+          {
+            "result": {
+              "duration": 630389400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7127733300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user web sayfasinda",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.user_web_sayfasinda()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 938466200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user sign in linkine tiklar",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.user_sign_in_linkine_tiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543245000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Create an account bolumune email adresi girer",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.user_Create_an_account_bolumune_email_adresi_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93657000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Create an Account butonuna basar",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.create_an_Account_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3773029300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user kisisel bilgilerini ve iletisim bilgilerini girer",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.user_kisisel_bilgilerini_ve_iletisim_bilgilerini_girer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2261946900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Register butonuna basar",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.user_Register_butonuna_basar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80885500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "hesap olusturuldugunu dogrulayin",
+            "match": {
+              "location": "stepdefinitions.AutomationPracticeTCSteps.hesap_olusturuldugunu_dogrulayin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@testcase1"
+          }
+        ]
+      }
+    ],
+    "name": "Automation Practise 1",
+    "description": "",
+    "id": "automation-practise-1",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Automation_practice.feature",
+    "tags": [
+      {
+        "name": "@testcase1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

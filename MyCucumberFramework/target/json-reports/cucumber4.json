@@ -1,0 +1,131 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-04T16:27:10.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2566000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "TC01_user logins with valid credentials",
+        "description": "",
+        "id": "login-feature;tc01-user-logins-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 1221496900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6793509900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on the fhctriplogin page",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_is_on_the_fhctriplogin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 200535200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters valid username",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_enters_valid_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153951500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters  valid password",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_enters_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26727748200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks login button",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.user_clicks_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 33088200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login is successfull",
+            "match": {
+              "location": "stepdefinitions.FhcTripLoginStepDefinitions.verify_login_is_successfull()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@fhclogin"
+          },
+          {
+            "name": "@smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/fhctrip_login.feature",
+    "tags": [
+      {
+        "name": "@fhclogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@smoketest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 11
+        }
+      }
+    ]
+  }
+]
